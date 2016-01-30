@@ -1,6 +1,6 @@
 var jsonServer = require('json-server')
 var clone = require('clone')
-var data = require('./data.json')
+var data = require('./data1.json')
 
 var port = process.env.PORT || 3000
 
@@ -16,5 +16,5 @@ app.use(jsonServer.defaults())
 app.use(router)
 
 app.listen(port, function() {
-  console.log('JSONPlaceholder listening on http://localhost:' + port)
+  console.log('JSONPlaceholder listening on http://localhot:' + port)
 })
