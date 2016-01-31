@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'TestBunnyInc/' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.6
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'TestBunnyInc/', null ]
+7 verbose cache add spec TestBunnyInc/
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'TestBunnyInc/',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: 'TestBunnyInc/',
+8 silly cache add   spec: '/Users/anamariatorrespalencia/Documents/TestBunnyInc/TestBunnyInc',
+8 silly cache add   type: 'local' }
+9 error addLocal Could not install /Users/anamariatorrespalencia/Documents/TestBunnyInc/TestBunnyInc
+10 verbose stack Error: ENOENT: no such file or directory, open '/Users/anamariatorrespalencia/Documents/TestBunnyInc/TestBunnyInc'
+10 verbose stack     at Error (native)
+11 verbose cwd /Users/anamariatorrespalencia/Documents/TestBunnyInc
+12 error Darwin 14.4.0
+13 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "TestBunnyInc/"
+14 error node v4.2.6
+15 error npm  v2.14.12
+16 error path /Users/anamariatorrespalencia/Documents/TestBunnyInc/TestBunnyInc
+17 error code ENOENT
+18 error errno -2
+19 error syscall open
+20 error enoent ENOENT: no such file or directory, open '/Users/anamariatorrespalencia/Documents/TestBunnyInc/TestBunnyInc'
+20 error enoent This is most likely not a problem with npm itself
+20 error enoent and is related to npm not being able to find a file.
+21 verbose exit [ -2, true ]
