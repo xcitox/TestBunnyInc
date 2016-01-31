@@ -1,0 +1,23 @@
+{
+  "id": 11,
+  "name": "Test1 Test1",
+  "username": "UserTest",
+  "email": "test1@usrtest.test",
+  "address": {
+    "street": "Fake St",
+    "suite": "123",
+    "city": "fake",
+    "zipcode": "1231",
+    "geo": {
+      "lat": "7",
+      "lng": "42"
+    }
+  },
+  "phone": 2111111,
+  "website": "test.test",
+  "company": {
+    "name": "BunnyInc",
+    "catchPhrase": "test for Bunny Inc",
+    "bs": "Test1 for Bunny Inc"
+  }
+}
